@@ -1,0 +1,126 @@
+div.contact-area {
+    font-family: 'Shippori Mincho B1', serif;
+    position: absolute;
+    top: calc( -89vw * 0.3 / 2);
+    left: 0;
+    display: flex;
+    width: 89vw;
+    background-color: #f1ede5;
+    padding: 100px 0;
+    // border-radius: 0 50px 0 0;
+    box-shadow: 0px 5px 25px 0px rgba(171, 171, 171, 0.35);
+    @include mq(tb) {
+        width: calc( 100vw - 8vw );
+        padding: 10vw;
+        display: block;
+        top: calc( -61.58vw / 2 );
+    }
+    .title {
+        width: 20%;
+        font-size: 28px;
+        font-weight: 500;
+        border-right: 1px solid #000;
+        padding: 50px 0 50px 50px;
+        @include mq(tb) {
+            width: 100%;
+            padding: 0;
+            border-right: none;
+            border-bottom: 1px solid #000;
+            font-size: 4.1356vw;
+        }
+        span {
+            display: block;
+            font-size: 22px;
+            color: #251714;
+            margin-top: 1em;
+            @include mq(tb) {
+                margin: .4em 0 1em;
+                font-size: 3.2494vw;
+            }
+        }
+    }
+    .tel, .mail {
+        width: 40%;
+        padding: 50px 0 50px 150px;
+        position: relative;
+        transition: 1s;
+        &:hover {
+            opacity: .5;
+        }
+        @include mq(tb) {
+            width: 100%;
+            display: block;
+            padding: 0 0 0 calc(14.4vw + 1em);
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: $color_daichi;
+            left: 35px;
+            top: 50%;
+            transform: translate(0, -50%);
+            @include mq(tb) {
+                left: 0;
+                width: 14.4vw;
+                height: 14.4vw;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #fff;
+            left: 35px;
+            top: 50%;
+            transform: translate(0, -50%);
+            mask-repeat: no-repeat;
+            mask-position: center;
+            @include mq(tb) {
+                left: 0;
+                width: 14.4vw;
+                height: 14.4vw;
+            }
+        }
+    }
+    .tel {
+        font-size: 40px;
+        font-weight: 500;
+        border-right: 1px solid #e3e3e3;
+        @include mq(tb) {
+            border-right: none;
+            font-size: 5.9vw;
+            margin: 8vw 0 4vw 8vw;
+        }
+        &::after {
+            mask-image: url('../images/icon_tel.svg');
+            mask-size: 26px;
+        }
+        span {
+            display: block;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 1em;
+            @include mq(tb) {
+                font-size: 2.586vw;
+            }
+        }
+    }
+    .mail {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 3.5;
+        @include mq(tb) {
+            font-size: 3.5448vw;
+            margin: 4vw 0 0 8vw;
+        }
+        &::after {
+            mask-image: url('../images/icon_mail.svg');
+            mask-size: 29px;
+        }
+    }
+}

@@ -1,0 +1,394 @@
+footer.footer {
+    width: 100vw;
+    position: relative;
+    @include mq(pc) {
+        height: 1063px;
+        background-image: url('../images/footer_bg_photo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .footer-bg-img {
+        @include mq(pc) {
+            display: none;
+        }
+        z-index: -1;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        img {
+            width: 100%;
+            vertical-align: top;
+            height: auto;
+        }
+    }
+   .top-border {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        mask-image: url('../images/footer_curve_top.svg');
+        mask-size: auto calc(55 * 100vw / 1500);
+        mask-repeat: no-repeat;
+        mask-position: top;
+        background-color: #fff;
+    }
+    .bottom-border {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100vw;
+        height: 100px;
+        background-image: url('../images/footer_curve_bottom.svg');
+        background-size: auto calc(50 * 100vw / 1500);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .footer-logo {
+        padding-top: 100px;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        @include mq(tb) {
+            padding-top: 14.66vw;
+        }
+        span {
+            display: block;
+            margin: 1em auto 0;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            height: 208px;
+            background-image: url('../images/logo_sogo_vertical_white.svg');
+            background-repeat: no-repeat;
+            background-size: 135px;
+            background-position: center;
+            position: relative;
+            @include mq(tb) {
+                background-size: 30vw;
+                height: calc(30vw * 1.54);
+            }
+        }
+    }
+    .footer-info {
+        position: absolute;
+        width: 1400px;
+        background-color: #fff;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        bottom: -200px;
+        margin: auto;
+        @include mq(tb) {
+            top: calc(14.66vw + 30px + (30vw * 1.54) + 14.66vw);
+            left: 50%;
+            bottom: auto;
+            transform: translateX(-50%);
+            width: calc(100vw - 40px);
+        }
+        .footer-info-top {
+            display: flex;
+            height: 341px;
+            @include mq(tb) {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                height: auto;
+                border: 1px solid #e6e6e6;
+            }
+            @include mq(sp) {
+                grid-template-columns: repeat(2,1fr);
+            }
+            .block {
+                width: 280px;
+                padding-top: 60px;
+                text-align: center;
+                border-top: 1px solid #e6e6e6;
+                border-bottom: 1px solid #e6e6e6;
+                border-left: 1px solid #e6e6e6;
+                @include mq(tb) {
+                    width: 100%;
+                    padding: 4vw;
+                    border: none;
+                    border-right: 1px solid #e6e6e6;
+                }
+                &:last-child {
+                    border-right: 1px solid #e6e6e6;
+                }
+                .logo-text {
+                    font-size: 11px;
+                    font-weight: 600;
+                    margin-bottom: 1em;
+                    @include mq(tb) {
+                        font-size: 1.5vw;
+                    }
+                }
+                &:nth-child(1) {
+                    color: $color_daichi;
+                    @include mq(tb) {
+                        border-bottom: 1px solid #e6e6e6;
+                    }
+                }
+                &:nth-child(2) {
+                    color: $color_factory;
+                    @include mq(tb) {
+                        border-bottom: 1px solid #e6e6e6;
+                    }
+                    @include mq(sp) {
+                        border-right: none;
+                    }
+                }
+                &:nth-child(3) {
+                    color: $color_deli;
+                    @include mq(tb) {
+                        border-right: none;
+                        border-bottom: 1px solid #e6e6e6;
+                    }
+                    @include mq(sp) {
+                        border-right: 1px solid #e6e6e6;
+                    }
+                }
+                &:nth-child(4) {
+                    color: $color_dining;
+                    @include mq(sp) {
+                        border-bottom: 1px solid #e6e6e6;
+                        border-right: none;
+                    }
+                }
+                &:nth-child(5) {
+                    color: $color_liquor;
+                }
+                .logo {
+                    img {
+                        height: 64px;
+                        @include mq(sp) {
+                            width: 100%;
+                            max-height: 64px;
+                        }
+                    }
+                }
+                .title {
+                    margin: 1.6em 0;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    font-weight: 500;
+                    color: $color_text;
+                    height: 40px;
+                    display: flex;
+	                align-items: center;
+                    justify-content: center;
+                    @include mq(sp) {
+                        margin: 1.6em 0 0;
+                        height: auto;
+                        font-size: 2.2155vw;
+                    }
+                }
+                p {
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 14px;
+                    color: $color_text;
+                    padding-left: 50px;
+                    text-align: left;
+                    @include mq(sp) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .footer-info-middle {
+            height: 178px;
+            border-bottom: 1px solid #e6e6e6;
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include mq(tb) {
+                padding: 20px;
+                justify-content: space-around;
+                height: calc((100vw - 16vw) * 0.3125);
+            }
+            .title {
+                position: absolute;
+                top: 1em;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 19px;
+                font-weight: 500;
+                color: #808080;
+                @include mq(tb) {
+                    font-size: 2.8vw;
+                }
+            }
+            .logo {
+                width: 554px;
+                margin-right: 30px;
+                @include mq(tb) {
+                   width: 45%;
+                   margin: 0;
+                }
+                @include mq(sp) {
+                    width: 90%;
+                }
+                img {
+                    height: 55px;
+                    @include mq(tb) {
+                        width: 100%;
+                        height: auto;
+                     }
+                }
+            }
+            p {
+                font-family: 'Shippori Mincho B1', serif;
+                width: 554px;
+                margin-left: 30px;
+                font-size: 14px;
+                @include mq(tb) {
+                    width: 45%;
+                    margin: 0;
+                }
+                @include mq(sp) {
+                    display: none;
+                }
+            }
+        }
+        .footer-info-bottom {
+            display: flex;
+            @include mq(tb) {
+                flex-wrap: wrap;
+            }
+            .block-wrap {
+                display: flex;
+                position: relative;
+                border-left: 1px solid #e6e6e6;
+                @include mq(tb) {
+                   width: 100%;
+                   border-right: 1px solid #e6e6e6;
+                }
+            }
+            .block {
+                width: 350px;
+                height: 252px;
+                border-bottom: 1px solid #e6e6e6;
+                @include mq(tb) {
+                    width: 100%;
+                    height: auto;
+                    padding: 20px;
+                 }
+                 @include mq(sp) {
+                    padding: 0 20px;
+                 }
+                .logo-img {
+                    width: 100%;
+                    height: 120px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 40px;
+                    @include mq(tb) {
+                        margin-top: 2vw;
+                        height: calc((100vw - 16vw) * 0.3125);
+                    }
+                    a {
+                        display: block;
+                    }
+                    .logo.sekimura img {
+                        height: 95px;
+                        @include mq(sp) {
+                            width: 100%;
+                            max-height: 95px;
+                        }
+                    }
+                    .logo.kitchen img {
+                        height: 62px;
+                        @include mq(sp) {
+                            width: 100%;
+                            max-height: 62px;
+                        }
+                    }
+                    .logo.liquor img {
+                        height: 62px;
+                        @include mq(sp) {
+                            width: 100%;
+                            max-height: 62px;
+                        }
+                    }
+                    .logo.okatte img {
+                        width: 140px;
+                        @include mq(sp) {
+                            padding-top: 2vw;
+                            width: 22.9vw;
+                            height: calc(22.9vw * 0.9);
+                        }
+                    }
+                }
+            }
+            .block.antena {
+                position: relative;
+                border-left: 1px solid #e6e6e6;
+                border-right: 1px solid #e6e6e6;
+            }
+            .title {
+                position: absolute;
+                top: 1em;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 19px;
+                font-weight: 500;
+                color: #808080;
+                z-index: 2;
+                @include mq(tb) {
+                    font-size: 2.8vw;
+                }
+            }
+            p {
+                font-family: 'Shippori Mincho B1', serif;
+                font-size: 12px;
+                text-align: center;
+                @include mq(sp) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .footer-bg-map {
+        position: absolute;
+        top: 0;
+        left: -20px;
+        width: 380px;
+        height: 402px;
+        @include mq(sp) {
+            top: 1vh;
+            left: -10%;
+            width: 60%;
+            height: auto;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .hover {
+        transition: 1s;
+        &:hover {
+            opacity: .4;
+        }
+    }
+}
+.copylight {
+    width: 100%;
+    height: 324px;
+    background-color: #000;
+    text-align: center;
+    font-size: 13px;
+    color: #e6e6e6;
+    padding-top: 234px;
+}

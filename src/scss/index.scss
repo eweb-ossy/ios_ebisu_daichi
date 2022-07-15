@@ -1,0 +1,14 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+
+.mv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #ccc;
+}
