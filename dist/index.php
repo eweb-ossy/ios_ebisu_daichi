@@ -12,7 +12,7 @@
     <div class="mv">
         <?php require('include/header.php'); ?>
     </div>
-    <?php $page = ''; require('include/footer_nav.php'); ?>
+    <?php $page = 'index'; require('include/footer_nav.php'); ?>
     <?php require('include/footer.php'); ?>
     <?php require('include/onlineshop_link.php'); ?>
     <script src="js/index.js?<?= time() ?>"></script>
