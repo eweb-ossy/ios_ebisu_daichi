@@ -7,6 +7,9 @@
 @import "include/onlineshop_link";
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 
+.slick-track {
+    overflow: hidden !important;
+}
 body {
     position: relative;
 }
@@ -21,12 +24,21 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        overflow: hidden;
+        @include mq(tb) {
+            width: 100vw;
+            max-width: 100vw;
+            overflow: hidden !important;
+        }
         .slide  {
             width: 100%;
             height: calc(100vh - 85px);
             position: relative;
             overflow: hidden;
+            @include mq(tb) {
+                max-width: 100vw;
+                width: 100%;
+                overflow: hidden !important;
+            }
             img {
                 position: absolute;
                 top: 50%;
@@ -260,6 +272,7 @@ section.commitment {
             width: 100%;
             height: auto;
             padding: 8vw;
+            overflow: hidden;
         }
         h2 {
             font-size: 11px;

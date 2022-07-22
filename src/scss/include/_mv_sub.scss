@@ -1,5 +1,9 @@
+body {
+    position: relative;
+}
 .mv {
     width: 100vw;
+    overflow: hidden;
     .image {
         width: 100%;
         height: calc(100vw * 0.3866);
