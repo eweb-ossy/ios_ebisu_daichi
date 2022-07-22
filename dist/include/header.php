@@ -13,7 +13,7 @@
 <nav class="header-nav">
     <div class="close-btn"></div>
     <ul class="main-menu">
-        <li><a href="">漢方和牛とは<span>About KANPO WAGYU</span></a></li>
+        <li><a href="about_wagyu.html">漢方和牛とは<span>About KANPO WAGYU</span></a></li>
         <li><a href="">漢方三元豚とは<span>About KANPO SANGENTON</span></a></li>
         <li><a href="">飲食店の皆様へ<span>For Restrants</span></a></li>
         <li><a href="">取扱店舗<span>Customer Store</span></a></li>

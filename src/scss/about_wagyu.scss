@@ -1,0 +1,327 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+@import "include/mv_sub";
+
+.mark {
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    img {
+        width: 119px;
+    }
+}
+
+// section info 
+section.info {
+    @include mq(tb) {
+        width: 100vw;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        @include mq(tb) {
+            width: 100%;
+            padding: 8vw;
+        }
+        .logo {
+            width: 472px;
+            margin-bottom: 40px;
+            @include mq(tb) {
+                width: 95%;
+                margin-bottom: 8vw;
+                text-align: center;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        h3 {
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 33px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin-bottom: 1em;
+            margin-left: 40px;
+            @include mq(tb) {
+                font-size: 5.33vw;
+                font-size: clamp(20px, 5.33vw, 33px);
+                margin-left: 0;
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            width: 406px;
+            padding-bottom: 80px;
+            margin-left: 40px;
+            @include mq(tb) {
+                width: 100%;
+                font-size: 3.73vw;
+                font-size: clamp(14px, 3.73vw, 16px);
+                padding-bottom: 16vw;
+                margin-left: 0;
+            }
+        }
+        .image {
+            position: absolute;
+            width: 656px;
+            top: 0;
+            right: -150px;
+            @include mq(tb) {
+                position: relative;
+                right: 0;
+                width: 100%;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// section info2
+section.info2 {
+    .inner {
+        width: 100vw;
+        height: 470px;
+        background-image: url('../images/about_wagyu_info2_bg.png');
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+        @include mq(tb) {
+            height: calc(100vw * 0.7);
+            margin-bottom: 32vw;
+        }
+        .text {
+            width: 900px;
+            position: absolute;
+            top: 120px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            @include mq(tb) {
+                position: relative;
+                top: 0;
+                left: 0;
+                transform: none;
+                width: 100vw;
+                padding: 8vw;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.8;
+                margin-bottom: 1em;
+                @include mq(tb) {
+                    font-size: 3.37vw;
+                    font-size: clamp(14px, 3.73vw, 16px);
+                }
+            }
+        }
+    }
+    .photo {
+        width: 100vw;
+        height: 674px;
+        background-image: url('../images/about_wagyu_info2_photo.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include mq(tb) {
+            height: calc(100vw * 0.9);
+        }
+    }
+}
+
+// section description 
+section.description {
+    width: 100vw;
+    padding: 100px 0;
+    background-image: url('../images/about_wagyu_description_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 120px;
+    background-size: 1667px;
+    @include mq(tb) {
+        padding: 0;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        @include mq(tb) {
+            width: 100%;
+            padding: 0 8vw;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 130px;
+            @include mq(tb) {
+                display: block;
+                margin-bottom: 32vw;
+            }
+            &:nth-of-type(1) {
+                padding-top: 200px;
+                .text::before {
+                    background-image: url('../images/about_wagyu_description_mark01.png');
+                }
+                .image {
+                    width: 564px;
+                    @include mq(tb) {
+                        width: 100%;
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                flex-direction: row-reverse;
+                .text::before {
+                    background-image: url('../images/about_wagyu_description_mark02.png');
+                }
+                .image {
+                    width: 425px;
+                    @include mq(tb) {
+                        width: 100%;
+                    }
+                }
+            }
+            &:nth-of-type(3) {
+                .text::before {
+                    background-image: url('../images/about_wagyu_description_mark03.png');
+                }
+                .image {
+                    width: 564px;
+                    @include mq(tb) {
+                        width: 100%;
+                    }
+                }
+            }
+            .text {
+                padding-top: 110px;
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 40px;
+                    width: 111px;
+                    height: 79px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    @include mq(tb) {
+                        left: 4vw;
+                    }
+                }
+                h3 {
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 33px;
+                    font-weight: 400;
+                    line-height: 1.8;
+                    margin-bottom: 1em;
+                    margin-left: 40px;
+                    @include mq(tb) {
+                        font-size: 5.33vw;
+                        font-size: clamp(20px, 5.33vw, 33px);
+                        margin-left: 4vw;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 1.8;
+                    width: 406px;
+                    margin-left: 40px;
+                    @include mq(tb) {
+                        width: 100%;
+                        font-size: 3.73vw;
+                        font-size: clamp(14px, 3.73vw, 16px);
+                        margin-left: 0;
+                        margin-bottom: 2em;
+                    }
+                }
+            }
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// section link 
+section.link {
+    width: 100vw;
+    padding-bottom: 350px;
+    @include mq(tb) {
+        padding: 0 8vw 350px;
+    }
+    .inner {
+        width: 1300px;
+        height: 450px;
+        margin: 0 auto;
+        background-image: url('../images/bg01.png');
+        position: relative;
+        text-align: right;
+        padding: 80px;
+        @include mq(tb) {
+            width: 100%;
+            height: calc(100vw - 16vw);
+            padding: 8vw;
+            display: flex;
+            align-items: flex-end;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 1300px;
+            height: 450px;
+            top: 0;
+            left: 0;
+            background-image: url('../images/about_wagyu_link_img01.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            @include mq(tb) {
+                background-image: url('../images/about_wagyu_link_img01_sp.png');
+                width: calc(100vw - 16vw);
+                height: calc(84vw * 0.55757);
+            }
+        }
+        .block {
+            text-align: center;
+            width: 560px;
+            display: inline-block;
+            @include mq(tb) {
+                width: 100%;
+                z-index: 2;
+            }
+            .link-mark {
+                width: 129px;
+                margin-bottom: 20px;
+                display: inline-block;
+                @include mq(tb) {
+                    width: 18.13vw;
+                    margin-bottom: 0;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .logo {
+                width: 557px;
+                margin-bottom: 40px;
+                @include mq(tb) {
+                    width: 72.266vw;
+                    margin-bottom: 2vw;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

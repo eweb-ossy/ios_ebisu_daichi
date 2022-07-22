@@ -5,9 +5,11 @@ header.header {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    // position: fixed;
-    // top: 0;
-    // left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
     @include mq(tb) {
         height: 20vw;
         max-height: 100px;

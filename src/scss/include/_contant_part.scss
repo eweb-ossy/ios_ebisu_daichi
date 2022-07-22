@@ -26,7 +26,8 @@ div.contact-area {
             padding: 0;
             border-right: none;
             border-bottom: 1px solid #000;
-            font-size: 4.1356vw;
+            font-size: 4.27vw;
+            font-size: clamp(16px, 4.27vw, 28px);
         }
         span {
             display: block;
@@ -35,7 +36,8 @@ div.contact-area {
             margin-top: 1em;
             @include mq(tb) {
                 margin: .4em 0 1em;
-                font-size: 3.2494vw;
+                font-size: 2.93vw;
+                font-size: clamp(11px, 2.93vw, 22px);
             }
         }
     }
@@ -93,7 +95,8 @@ div.contact-area {
         border-right: 1px solid #e3e3e3;
         @include mq(tb) {
             border-right: none;
-            font-size: 5.9vw;
+            font-size: 6.4vw;
+            font-size: clamp(24px, 6.4vw, 40px);
             margin: 8vw 0 4vw 8vw;
         }
         &::after {
@@ -106,7 +109,8 @@ div.contact-area {
             font-weight: 400;
             margin-top: 1em;
             @include mq(tb) {
-                font-size: 2.586vw;
+                font-size: 2.93vw;
+                font-size: clamp(11px, 2.93vw, 18px);
             }
         }
     }
@@ -115,7 +119,8 @@ div.contact-area {
         font-weight: 500;
         line-height: 3.5;
         @include mq(tb) {
-            font-size: 3.5448vw;
+            font-size: 4.27vw;
+            font-size: clamp(16px, 4.27vw, 24px);
             margin: 4vw 0 0 8vw;
         }
         &::after {
