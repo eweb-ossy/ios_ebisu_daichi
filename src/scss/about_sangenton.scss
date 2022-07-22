@@ -8,7 +8,7 @@
 @import "include/mv_sub";
 
 .mv .image {
-    background-image: url('../images/about_wagyu_mv_photo.jpg');
+    background-image: url('../images/about_sangenton_mv_photo.jpg');
 }
 
 .mark {
@@ -156,7 +156,7 @@ section.description {
         padding: 0;
     }
     .inner {
-        width: 1100px;
+        width: 1200px;
         margin: 0 auto;
         @include mq(tb) {
             width: 100%;
@@ -173,7 +173,7 @@ section.description {
             &:nth-of-type(1) {
                 padding-top: 200px;
                 .text::before {
-                    background-image: url('../images/about_wagyu_description_mark01.png');
+                    background-image: url('../images/about_sangenton_description_mark01.png');
                 }
                 .image {
                     width: 564px;
@@ -185,10 +185,10 @@ section.description {
             &:nth-of-type(2) {
                 flex-direction: row-reverse;
                 .text::before {
-                    background-image: url('../images/about_wagyu_description_mark02.png');
+                    background-image: url('../images/about_sangenton_description_mark02.png');
                 }
                 .image {
-                    width: 425px;
+                    width: 564px;
                     @include mq(tb) {
                         width: 100%;
                     }
@@ -196,7 +196,7 @@ section.description {
             }
             &:nth-of-type(3) {
                 .text::before {
-                    background-image: url('../images/about_wagyu_description_mark03.png');
+                    background-image: url('../images/about_sangenton_description_mark03.png');
                 }
                 .image {
                     width: 564px;
@@ -212,9 +212,9 @@ section.description {
                     content: '';
                     position: absolute;
                     top: 0;
-                    left: 40px;
-                    width: 111px;
-                    height: 79px;
+                    left: 30px;
+                    width: 129px;
+                    height: 78px;
                     background-repeat: no-repeat;
                     background-size: contain;
                     @include mq(tb) {
@@ -286,11 +286,11 @@ section.link {
             height: 450px;
             top: 0;
             left: 0;
-            background-image: url('../images/about_wagyu_link_img01.png');
+            background-image: url('../images/about_sangenton_link_img01.png');
             background-repeat: no-repeat;
             background-size: contain;
             @include mq(tb) {
-                background-image: url('../images/about_wagyu_link_img01_sp.png');
+                background-image: url('../images/about_sangenton_link_img01_sp.png');
                 width: calc(100vw - 16vw);
                 height: calc(84vw * 0.55757);
             }
@@ -304,7 +304,7 @@ section.link {
                 z-index: 2;
             }
             .link-mark {
-                width: 129px;
+                width: 111px;
                 margin-bottom: 20px;
                 display: inline-block;
                 @include mq(tb) {
@@ -316,7 +316,7 @@ section.link {
                 }
             }
             .logo {
-                width: 557px;
+                width: 496px;
                 margin-bottom: 40px;
                 @include mq(tb) {
                     width: 72.266vw;

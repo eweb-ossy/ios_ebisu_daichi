@@ -5,68 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <title>漢方和牛とは｜ゑびすミートダイチ</title>
-    <link rel="stylesheet" href="css/about_wagyu.css?<?= time() ?>">
+    <title>漢方三元豚とは｜ゑびすミートダイチ</title>
+    <link rel="stylesheet" href="css/about_sangenton.css?<?= time() ?>">
 </head>
 <body>
     <div class="mv">
         <?php require('include/header.php'); ?>
         <div class="image">
             <div class="text">
-                <h2>漢方和牛とは</h2>
-                <h3>About KANPO WAGYU</h3>
+                <h2>漢方三元豚とは</h2>
+                <h3>About KANPO SANGENTON</h3>
             </div>
         </div>
     </div>
     <div class="mark">
-        <img src="images/about_wagyu_mark.png" alt="">
+        <img src="images/about_sangenton_mark.png" alt="">
     </div>
     <section class="info">
         <div class="inner">
-            <h2 class="logo"><img src="images/logo_daichi_wagyu.svg" loading="lazy" alt="漢方和牛 ダイチ"></h2>
-            <h3>人が食べても体によい<br>漢方ハーブの飼料で育てる。</h3>
-            <p>【原稿リライト予定】健康な牛を育て、牛肉本来のおいしさをつくるために、14種類のハーブをブレンドしたオリジナルの飼料を開発。肥育の仕上げに約８か月食べさせています。出来上がる肉の質を吟味しながら試行錯誤を重ねて生み出したまさに漢方和牛のおいしさの決め手です。</p>
+            <h2 class="logo"><img src="images/logo_daichi_ton.svg" loading="lazy" alt="漢方三元豚 ダイチ"></h2>
+            <h3>漢方飼料という<br>“御馳走”を食べて育った豚は<br>やはり“御馳走”</h3>
+            <p>【原稿リライト予定】関村牧場の豚舎は、一般的な養豚場の匂いがしません。<br>漢方三元豚は、「えごま」「はとむぎ」「こめぬか」「ハブ茶」「くこの実」などを14種類のハーブが入った漢方飼料を食べて育っているため、排泄物の匂いが大幅に抑えられ、豚舎全体も匂いが少ないというわけです。<br>漢方飼料の防臭効果だけでなく、ストレスなく育つことで豚肉特有の臭みが解消され、上品な甘さを感じられるようになります。<br>とろけるような脂身とその甘みを、しっかりとした赤身が受けて、満足度の高い豚肉として完成されます。<br>御馳走を食べた豚はやはり御馳走なのです。</p>
             <div class="image">
-                <img src="images/about_wagyu_info_photo.jpg" loading="lazy" alt="">
+                <img src="images/about_sangenton_info_photo.jpg" loading="lazy" alt="">
             </div>
         </div>
     </section>
     <section class="info2">
-        <div class="inner">
-            <div class="text">
-                <p>【原稿リライト予定】漢方は、人を健康に保ち自然治癒力を高める東洋の知恵。「福島の二本松に漢方卵というのがあった。桑の葉などいろいろなものが使われた餌で、鶏舎ににおいがなかった。これはいいと感じもらって牛に食べさせてみたら、食べた。これはいけると思ったよ」</p>
-                <p>人にいいものは牛にも良いはず。研究を重ね、4種類、7種類と増やしていき、最終的に14種類に。「米ぬかとえごまが特に旨みを作るんだ」肉の質を吟味しながら試行錯誤を重ね、今のブレンドに落ち着きました。関村場長の情熱の結晶です。</p>
-            </div>
-        </div>
+        <div class="inner"></div>
         <div class="photo"></div>
     </section>
     <section class="description">
         <div class="inner">
             <div class="row">
                 <div class="text">
-                    <h3>程よい食べ応え、<br>口にとろける。</h3>
+                    <h3>毎日食べたくなる<br>上質な脂。</h3>
                     <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                 </div>
                 <div class="image">
-                    <img src="images/about_wagyu_description_img01.png" loading="lazy" alt="">
+                    <img src="images/about_sangenton_description_img01.png" loading="lazy" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="text">
-                    <h3>毎日食べたい！<br>後味さっぱり、ヘルシーな脂。</h3>
+                    <h3>きめ細かな繊維、<br>やわらかい肉質。</h3>
                     <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                 </div>
                 <div class="image">
-                    <img src="images/about_wagyu_description_img02.png" loading="lazy" alt="">
+                    <img src="images/about_sangenton_description_img02.png" loading="lazy" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="text">
-                    <h3>お肉自身の、<br>旨味が違う。</h3>
+                    <h3>ほんのり甘みを感じる<br>やさしい旨味。</h3>
                     <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                 </div>
                 <div class="image">
-                    <img src="images/about_wagyu_description_img03.png" loading="lazy" alt="">
+                    <img src="images/about_sangenton_description_img03.png" loading="lazy" alt="">
                 </div>
             </div>
         </div>
@@ -75,18 +70,18 @@
         <div class="inner">
             <div class="block">
                 <div class="link-mark">
-                    <img src="images/about_wagyu_link_img02.png" alt="">
+                    <img src="images/about_sangenton_link_img02.png" alt="">
                 </div>
                 <div class="logo">
-                    <img src="images/logo_daichi_ton.svg" alt="漢方三元豚 ダイチ">
+                    <img src="images/logo_daichi_wagyu.svg" alt="漢方和牛 ダイチ">
                 </div>
-                <a href="about_sangenton.html" class="daichi-link">詳しく見る</a>
+                <a href="about_wagyu.html" class="daichi-link">詳しく見る</a>
             </div>
         </div>
     </section>
     <?php $page = 'index'; require('include/footer_nav.php'); ?>
     <?php require('include/footer.php'); ?>
     <?php require('include/onlineshop_link.php'); ?>
-    <script src="js/about_wagyu.js?<?= time() ?>"></script>
+    <script src="js/about_sangenton.js?<?= time() ?>"></script>
 </body>
 </html>

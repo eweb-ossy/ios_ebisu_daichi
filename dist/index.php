@@ -132,7 +132,7 @@
                 <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
             </div>
             <div class="link parallax fadein">
-                <a class="daichi-link" href="">詳しく見る</a>
+                <a class="daichi-link" href="about_sangenton.html">詳しく見る</a>
             </div>
         </div>
         <div class="wrap">
