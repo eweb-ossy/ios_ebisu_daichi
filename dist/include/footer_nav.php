@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="about_wagyu.html">漢方和牛とは</a></li>
                 <li><a href="about_sangenton.html">漢方三元豚とは</a></li>
-                <li><a href="">飲食店の皆様へ</a></li>
+                <li><a href="for_restaurants.html">飲食店の皆様へ</a></li>
                 <li><a href="">取扱店舗</a></li>
                 <li><a href="antenashop.html">アンテナショップ（おかってマルシェ）</a></li>
                 <li><a href="">お客様の声</a></li>

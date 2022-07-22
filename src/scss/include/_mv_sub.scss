@@ -21,6 +21,9 @@
             bottom: 0;
             left: 50%;
             transform: translate(-50%, 0);
+            @include mq(tb) {
+                height: 10vw;
+            }
         }
         .text {
             position: absolute;
