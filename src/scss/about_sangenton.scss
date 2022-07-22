@@ -299,9 +299,10 @@ section.link {
             text-align: center;
             width: 560px;
             display: inline-block;
+            position: relative;
+            z-index: 2;
             @include mq(tb) {
                 width: 100%;
-                z-index: 2;
             }
             .link-mark {
                 width: 111px;

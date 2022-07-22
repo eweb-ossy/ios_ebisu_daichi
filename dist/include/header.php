@@ -1,6 +1,6 @@
 <header class="header">
     <h1 class="header-logo">
-        <a href=""><img src="images/logo_daichi2.svg" alt="EBISU MEAT DAICHI 株式会社ダイチ"></a>
+        <a href="/"><img src="images/logo_daichi2.svg" alt="EBISU MEAT DAICHI 株式会社ダイチ"></a>
     </h1>
     <div class="header-nav-btn">
         <div id="nav_btn" class="btn">
