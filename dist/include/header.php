@@ -22,7 +22,7 @@
     </ul>
     <ul class="sub-menu">
         <li><a href="">お知らせ</a></li>
-        <li><a href="">企業情報</a></li>
+        <li><a href="corporate_information.html">企業情報</a></li>
         <li><a href="">よくあるご質問</a></li>
         <li><a href="">お問い合わせ</a></li>
         <li><a href="">サイトマップ</a></li>

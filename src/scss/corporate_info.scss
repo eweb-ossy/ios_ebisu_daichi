@@ -1,0 +1,100 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+@import "include/mv_sub";
+
+.mv .image {
+    background-image: url('../images/corporate_info_mv_photo.jpg');
+}
+
+// section info 
+section.info {
+    padding: 80px 0;
+    margin-bottom: 300px;
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 0 8vw;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 33px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin-bottom: 3em;
+            @include mq(tb) {
+                font-size: 5.33vw;
+                font-size: clamp(20px, 5.33vw, 33px);
+                margin-bottom: 1em;
+            }
+        }
+        .text {
+            width: 100%;
+            position: relative;
+            p {
+                width: 670px;
+                font-size: 16px;
+                line-height: 1.8;
+                @include mq(tb) {
+                    width: 100%;
+                    font-size: 3.73vw;
+                    font-size: clamp(14px, 3.73vw, 16px);
+                }
+            }
+            img {
+                position: absolute;
+                top: 0;
+                right: -80px;
+                width: 445px;
+                @include mq(tb) {
+                    position: relative;
+                    right: auto;
+                    width: 100%;
+                    margin-bottom: 8vw;
+                }
+            }
+        }
+        .information {
+            padding: 80px 0;
+            width: 1000px;
+            margin: 0 auto;
+            @include mq(tb) {
+                width: 100%;
+            }
+            h2 {
+                text-align: left;
+                margin-bottom: 1em;
+            }
+            table {
+                width: 100%;
+                tr {
+                    border-top: 1px solid #f0f0f0;
+                    &:last-child {
+                        border-bottom: 1px solid #f0f0f0;
+                    }
+                    th, td {
+                        padding: 1.5em 1em;
+                        font-size: 16px;
+                        line-height: 1.6;
+                        text-align: left;
+                        @include mq(tb) {
+                            font-size: 3.73vw;
+                            font-size: clamp(14px, 3.73vw, 16px);
+                        }
+                    }
+                    th {
+                        font-weight: 500;
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
