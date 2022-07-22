@@ -155,7 +155,7 @@
                 <div class="img">
                     <img src="images/logo_shop_okatte.png" loading="lazy" alt="">
                 </div>
-                <a class="daichi-link" href="">詳しく見る</a>
+                <a class="daichi-link" href="antenashop.html">詳しく見る</a>
             </div>
         </div>
     </section>
