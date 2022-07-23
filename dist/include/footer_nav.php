@@ -18,7 +18,7 @@
                 <li><a href="antenashop.html">アンテナショップ（おかってマルシェ）</a></li>
                 <li><a href="customer_reviews.html">お客様の声</a></li>
                 <li><a href="corporate_information.html">企業情報</a></li>
-                <li><a href="">よくあるご質問</a></li>
+                <li><a href="faq.html">よくあるご質問</a></li>
                 <li><a href="contact.html">お問い合わせ</a></li>
                 <li><a href="">サイトマップ</a></li>
             </ul>
