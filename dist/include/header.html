@@ -24,7 +24,7 @@
         <li><a href="news.html">お知らせ</a></li>
         <li><a href="corporate_information.html">企業情報</a></li>
         <li><a href="">よくあるご質問</a></li>
-        <li><a href="">お問い合わせ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
         <li><a href="">サイトマップ</a></li>
         <li class="onlineshop"><a href="">オンラインショップへ</a></li>
     </ul>

@@ -9,3 +9,4 @@
 [企業情報](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/corporate_infomation.html)  
 [お客様の声](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/customer_reviews.html)  
 [お知らせ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/news.html)  
+[お問い合わせ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/contact.html)  
