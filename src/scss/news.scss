@@ -1,0 +1,138 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+@import "include/mv_sub";
+
+.mv .image {
+    background-image: url('../images/news_mv_photo.jpg');
+}
+
+.mark {
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    img {
+        width: 284px;
+    }
+}
+
+// section newslist 
+section.newslist {
+    margin-bottom: 300px;
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 0 8vw;
+        }
+        .content {
+            width: 100%;
+            a {
+                border-top: 1px solid #dcdcdc;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                line-height: 1;
+                padding: 4em 0 4em 1em;
+                transition: 1s;
+                @include mq(tb) {
+                    display: block;
+                    padding: 1.5em 0 1.5em .8em;
+                }
+                &:last-child {
+                    border-bottom: 1px solid #dcdcdc;
+                }
+                &:hover {
+                    background-color: #e6e6dc;
+                }
+                .news-date {
+                    margin-right: 2em;
+                    font-size: 18px;
+                    color: #b2b2b2;
+                    @include mq(tb) {
+                        font-size: 2.93vw;
+                        font-size: clamp(11px, 2.93vw, 18px);
+                        margin-bottom: 1em;
+                    }
+                }
+                .news-body {
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    @include mq(tb) {
+                        font-size: 2.93vw;
+                        font-size: clamp(11px, 2.93vw, 18px);
+                    }
+                }
+            }
+        }
+        .pagination {
+            width: 500px;
+            margin: 120px auto;
+            @include mq(tb) {
+                width: 100%;
+                margin: 16vw auto;
+            }
+            .nav-links ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0 10px;
+                    @include mq(tb) {
+                        width: 11.2vw;
+                        height: 11.2vw;
+                        margin: 0;
+                    }
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        display: block;
+                        @include mq(tb) {
+                            width: 11.2vw;
+                            height: 11.2vw;
+                        }
+                    }
+                    .page-numbers {
+                        border-radius: 50%;
+                        background-color: #c0c0c0;
+                        color: #fff;
+                        font-size: 19px;
+                        font-weight: 600;
+                        text-align: center;
+                        padding-top: 12px;
+                        transition: 1s;
+                        @include mq(tb) {
+                            font-size: 2.8vw;
+                            padding-top: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    .prev, .next {
+                        mask-image: url('../images/icon_arrow2.svg');
+                        mask-repeat: no-repeat;
+                        mask-size: 11px;
+                        mask-position: center;
+                        background-color: #000;
+                        @include mq(tb) {
+                            mask-size: 2.4vw;
+                        }
+                    }
+                    .prev {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+    }
+}

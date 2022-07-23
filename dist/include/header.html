@@ -21,7 +21,7 @@
         <li><a href="customer_reviews.html">お客様の声<span>Customer’s Voice</span></a></li>
     </ul>
     <ul class="sub-menu">
-        <li><a href="">お知らせ</a></li>
+        <li><a href="news.html">お知らせ</a></li>
         <li><a href="corporate_information.html">企業情報</a></li>
         <li><a href="">よくあるご質問</a></li>
         <li><a href="">お問い合わせ</a></li>

@@ -209,7 +209,7 @@
                 </a>
             </div>
             <div class="link fadein">
-                <a href="" class="daichi-link">一覧をみる</a>
+                <a href="news.html" class="daichi-link">一覧をみる</a>
             </div>
         </div>
     </section>

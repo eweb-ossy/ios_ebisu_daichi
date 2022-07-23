@@ -8,3 +8,4 @@
 [飲食店の皆様へ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/for_restaurants.html)  
 [企業情報](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/corporate_infomation.html)  
 [お客様の声](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/customer_reviews.html)  
+[お知らせ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/news.html)  
