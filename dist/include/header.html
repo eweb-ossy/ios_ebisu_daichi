@@ -18,7 +18,7 @@
         <li><a href="for_restaurants.html">飲食店の皆様へ<span>For Restrants</span></a></li>
         <li><a href="">取扱店舗<span>Customer Store</span></a></li>
         <li><a href="antenashop.html">アンテナショップ（おかってマルシェ）<span>Antenna Shop</span></a></li>
-        <li><a href="">お客様の声<span>Customer’s Voice</span></a></li>
+        <li><a href="customer_reviews.html">お客様の声<span>Customer’s Voice</span></a></li>
     </ul>
     <ul class="sub-menu">
         <li><a href="">お知らせ</a></li>

@@ -219,7 +219,7 @@
             <h3>お客様の声</h3>
             <p>株式会社ダイチでは、より一層ご満足いただける商品やサービスをご提供するため、お客様からいただいたご意見を何よりも大切にしております。これまでに寄せられたお客様からのメッセージ、お喜びの声をご紹介します。</p>
             <div class="link">
-                <a href="" class="daichi-link">詳しく見る</a>
+                <a href="customer_reviews.html" class="daichi-link">詳しく見る</a>
             </div>
             <div class="image img01">
                 <img src="images/top_customers_img01.jpg" loading="lazy" alt="">

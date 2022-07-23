@@ -1,0 +1,193 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+@import "include/mv_sub";
+
+.mv .image {
+    background-image: url('../images/customer_reviews_mv_photo.jpg');
+}
+
+// section info 
+section.info {
+    .inner {
+        width: 1100px;
+        margin: 100px auto;
+        text-align: center;
+        @include mq(tb) {
+            width: 100vw;
+            margin: 16vw auto;
+            padding: 0 8vw;
+            background-image: none;
+        }
+        h2 {
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 33px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin-bottom: 1em;
+            position: relative;
+            @include mq(tb) {
+                font-size: 5.33vw;
+                font-size: clamp(20px, 5.33vw, 33px);
+                padding-bottom: 28.8vw;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 98.9vw;
+                    height: 29.06vw;
+                    background-image: url('../images/customer_bg03.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    bottom: 0;
+                    left: -16vw;
+                }
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            @include mq(tb) {
+                font-size: 3.73vw;
+                font-size: clamp(14px, 3.73vw, 16px);
+                text-align: left;
+            }
+        }
+    }
+}
+
+// section voices 
+section.voices {
+    margin-bottom: 300px;
+    @include mq(tb) {
+        width: 100vw;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        padding-bottom: 400px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 315px;
+            height: 384px;
+            background-image: url('../images/customer_bg01.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            left: -50px;
+            bottom: 50px;
+            @include mq(tb) {
+                width: 54.66vw;
+                height: calc(54.66vw * 1.21);
+                left: 0;
+                bottom: 16vw;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 1375px;
+            height: 160px;
+            background-image: url('../images/customer_bg02.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: -400px;
+            bottom: 150px;
+            @include mq(tb) {
+                width: 177vw;
+                height: calc(177vw * 0.116);
+                left: 50%;
+                bottom: 15vw;
+                transform: translate(-50%, 0);
+            }
+        }
+        @include mq(tb) {
+            width: 100%;
+            padding: 0 8vw 100vw;
+        }
+        .block {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 65px;
+            @include mq(tb) {
+                display: block;
+                margin-bottom: 16vw;
+            }
+            .heading {
+                text-align: center;
+                .image {
+                    width: 160px;
+                    @include mq(tb) {
+                        margin: 0 auto;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                p {
+                    margin-top: 1em;
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 17px;
+                    @include mq(tb) {
+                        font-size: 3.47vw;
+                        font-size: clamp(13px, 3.47vw, 17px);
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+            .post {
+                width: 840px;
+                background-color: #f5f5f5;
+                padding: 50px;
+                border-radius: 5px;
+                position: relative;
+                @include mq(tb) {
+                    width: 100%;
+                    padding: 10vw 6vw;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 29px;
+                    height: 24px;
+                    background-image: url('../images/customer_voice_img_pc.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    left: -28px;
+                    top: 80px;
+                    @include mq(tb) {
+                        background-image: url('../images/customer_voice_img_sp.svg');
+                        width: 35px;
+                        height: 30px;
+                        top: -28px;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                    }
+                }
+                .title {
+                    font-family: 'Shippori Mincho B1', serif;
+                    font-size: 25px;
+                    font-weight: 400;
+                    line-height: 1.8;
+                    margin-bottom: 1em;
+                    @include mq(tb) {
+                        font-size: 5.33vw;
+                        font-size: clamp(20px, 5.33vw, 25px);
+                    }
+                }
+                p {
+                    font-size: 16px;
+                     line-height: 1.8;
+                    @include mq(tb) {
+                        font-size: 3.73vw;
+                        font-size: clamp(14px, 3.73vw, 16px);
+                    }
+                }
+            }
+        }
+    }
+}
