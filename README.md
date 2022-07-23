@@ -10,3 +10,4 @@
 [お客様の声](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/customer_reviews.html)  
 [お知らせ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/news.html)  
 [お問い合わせ](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/contact.html)  
+[取扱店舗](https://eweb-ossy.github.io/ios_ebisu_daichi/dist/dealers.html)  
