@@ -102,10 +102,18 @@ section.info {
                 display: block;
                 margin-bottom: 16vw;
             }
-            img {
+            .image {
                 width: 470px;
+                height: 320px;
+                overflow: hidden;
                 @include mq(tb) {
                     width: 100%;
+                    height: calc(100% * 0.68);
+                }
+                img {
+                    width: 105%;
+                    vertical-align: middle;
+                    text-align: center;
                 }
             }
         }

@@ -187,10 +187,17 @@ section.product {
                 width: 100vw;
                 padding: 8vw;
             }
-            img {
+            .image {
                 width: 200px;
+                height: 190px;
+                overflow: hidden;
                 @include mq(tb) {
                     width: calc(84vw / 2);
+                }
+                img {
+                    width: 105%;
+                    vertical-align: middle;
+                    text-align: center;
                 }
             }
         }

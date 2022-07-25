@@ -16,10 +16,11 @@ section.faqlist {
     padding: 200px 0 80px;
     margin-bottom: 300px;
     background-image: url('../images/faq_img01.png');
-    background-position: top;
+    background-position: 100px top;
     background-repeat: no-repeat;
     background-size: 1200px;
     @include mq(tb) {
+        background-position: top;
         padding: 40vw 0 16vw;
         background-size: 152vw;
     }

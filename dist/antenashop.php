@@ -28,15 +28,33 @@
                 <p>台所の出入り口を意味する「お勝手口」から名付けられた「おかってマルシェ」は、 栗原ならではのおいしい地場産品と出会える場として、多くの人に愛されています。 お店では漢方和牛や漢方三元豚をはじめ、旬の野菜や果物、それらをふんだんに使用した お弁当の他、地酒やスイーツなどが豊富に並び、それらを味わえるレストランも併設。 地元の人々や観光で訪れる人々の中にはリピーターも多く、 おかってマルシェで出会える旬の味を楽しみにしています。</p>
             </div>
             <div class="photos">
-                <img src="images/antenashop_info_photo01.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo02.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo03.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo04.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo05.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo06.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo07.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo08.jpg" loading="lazy" alt="">
-                <img src="images/antenashop_info_photo09.jpg" loading="lazy" alt="">
+                <div class="image">
+                    <img src="images/antenashop_info_photo01.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo02.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo03.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo04.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo05.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo06.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo07.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo08.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/antenashop_info_photo09.jpg" loading="lazy" alt="">
+                </div>
             </div>
             <div class="note">
                 <div class="image">

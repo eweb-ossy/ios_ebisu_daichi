@@ -43,8 +43,8 @@
             <div class="image parallax fadein">
                 <img src="images/top_info_img01.png" loading="lazy" alt="">
             </div>
-            <h3 class="parallax fadein">冷涼な高原に温暖な平野、<br>きびしくやさしい自然とともに、<br>今日もくりはらの地で美味しさを育みます。</h3>
-            <p class="parallax fadein">漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。漢方牛に対する取り組みやこだわりなどの説明文が入ります。漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。漢方牛に対する取り組みやこだわりなどの説明文が入ります。</p>
+            <h3 class="parallax fadein">冷涼な気候と、豊かな土地。<br>人々の情熱で大切に育まれた、<br>栗原生まれのごちそう。</h3>
+            <p class="parallax fadein">栗原の厳しくも優しい、命輝く自然の中のびのびと育つ牛や豚たち。ストレスのない環境で、たくさんの人々の愛情を受ける動物たちは穏やかな性格に育ちます。繁殖から肥育までをそれぞれのスペシャリストが担い、しっかりと向き合うことで、食べる人の健康を考えたおいしさをじっくりと育んでいます。</p>
             <div class="image parallax fadein">
                 <img src="images/top_info_img02.png" loading="lazy" alt="">
             </div>
@@ -64,8 +64,8 @@
     <section class="commitment">
         <div class="inner">
             <h2 class="parallax fadein">Commitment</h2>
-            <h3 class="parallax fadein">「人間にいいものは、<br>牛にも豚にもいい」<br>試行錯誤を重ねた、<br>14種類の漢方飼料。</h3>
-            <p class="parallax fadein">漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。漢方牛に対する取り組みやこだわりなどの説明文が入ります。漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。漢方牛に対する取り組みやこだわりなどの説明文が入ります。漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。漢方牛に対する取り組みやこだわりなどの説明文が入ります。漢方三元豚に対する取り組みやこだわりなどの説明文が入ります。</p>
+            <h3 class="parallax fadein">「人間にいいものは、<br>牛にも豚にもいい」<br>試行錯誤の末誕生した、<br>14種類の漢方飼料。</h3>
+            <p class="parallax fadein">出来上がる肉質や旨みを吟味し、試行錯誤を重ね誕生した漢方飼料は関村牧場長の情熱の結晶です。おいしさの基本となる健康な牛・豚を育てるため、14種類のハーブをブレンドしたオリジナルの飼料を開発。人を健康に保ち、自然治癒力を高める東洋の知恵である漢方を取り入れることで、肉本来のおいしさを追い求めました。一頭一頭大切に育て上げ、肥育の仕上げに約8ヶ月食べさせることで、その味わいに磨きをかけていきます。</p>
             <div class="image parallax fadein">私たちのこだわり</div>
             <div class="image parallax fadein">
                 <img src="images/top_commitment_img01.png" loading="lazy" alt="">
@@ -111,8 +111,8 @@
             </div>
             <div class="text parallax fadein">
                 <h3>About KANPO WAGYU</h3>
-                <h4>漢方ハーブの飼料が生んだ<br>程よい食べ応え、<br>口にとろける、ヘルシーな脂。</h4>
-                <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                <h4>ヘルシーな脂と豊富な旨み成分<br>漢方飼料生まれの、<br>繊細な肉質と抜群の食べ応え。</h4>
+                <p>上質でヘルシーな脂とコクのある旨み。繊細でやわらかな舌触りが魅力の漢方和牛は、人肌でとろけるほど繊細な脂身と、食べ応えのある赤身のバランスが特徴です。漢方飼料により、食のプロも太鼓判を押すおいしさが生まれます。</p>
             </div>
             <div class="link parallax fadein">
                 <a class="daichi-link" href="about_wagyu.html">詳しく見る</a>
@@ -128,8 +128,8 @@
             </div>
             <div class="text parallax fadein">
                 <h3>About KANPO SANGENTON</h3>
-                <h4>漢方飼料という<br>“御馳走”を食べて育った豚は<br>やっぱり“御馳走”</h4>
-                <p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                <h4>「ごちそう」は漢方飼料<br>というごちそうを食べて、<br>より一層おいしくなる。</h4>
+                <p>上品な甘みのとろけるような脂身と、きめ細やかでやわらかい赤身が魅力の漢方三元豚。漢方飼料とストレスない環境で育つことで、豚肉特有の臭みのない上質な肉質のジューシーなごちそうが生まれます。</p>
             </div>
             <div class="link parallax fadein">
                 <a class="daichi-link" href="about_sangenton.html">詳しく見る</a>
@@ -182,7 +182,7 @@
             <div class="image parallax fadein">
                 <img src="images/top_agriculture_img01.png" loading="lazy" alt="">
             </div>
-            <div class="image parallax fadein">
+            <div class="image fadein">
                 <img src="images/top_agriculture_img02.png" loading="lazy" alt="">
             </div>
         </div>

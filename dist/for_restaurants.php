@@ -62,16 +62,36 @@
                 </div>
             </div>
             <div class="photos">
-                <img src="images/for_restaurants_product_img03.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img04.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img05.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img06.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img07.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img08.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img09.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img10.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img11.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img12.jpg" loading="lazy" alt="">
+                <div class="image">
+                    <img src="images/for_restaurants_product_img03.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img04.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img05.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img06.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img07.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img08.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img09.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img10.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img11.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img12.jpg" loading="lazy" alt="">
+                </div>
             </div>
         </div>
         <div class="inner">
@@ -104,16 +124,36 @@
                 </div>
             </div>
             <div class="photos">
-                <img src="images/for_restaurants_product_img15.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img16.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img17.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img18.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img19.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img20.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img21.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img22.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img23.jpg" loading="lazy" alt="">
-                <img src="images/for_restaurants_product_img24.jpg" loading="lazy" alt="">
+                <div class="image">
+                    <img src="images/for_restaurants_product_img15.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img16.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img17.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img18.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img19.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img20.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img21.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img22.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img23.jpg" loading="lazy" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/for_restaurants_product_img24.jpg" loading="lazy" alt="">
+                </div>
             </div>
         </div>
     </section>

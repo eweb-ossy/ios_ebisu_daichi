@@ -11,6 +11,15 @@ a.onlineshop-link {
     display: flex;
     align-items: center;
     padding: 20px;
+    transition: .5s;
+    &:hover {
+        &::before {
+            background-color: #000;
+        }
+        &::after {
+            background-color: #fff;
+        }
+    }
     @include mq(sp) {
         width: calc(100vw - 16vw);
         margin: 0 auto;
@@ -30,6 +39,7 @@ a.onlineshop-link {
         right: 20px;
         top: 50%;
         transform: translate(0, -50%);
+        transition: .5s;
         @include mq(sp) {
             width: calc(100vw * 0.104);
             height: calc(100vw * 0.104);
@@ -49,6 +59,7 @@ a.onlineshop-link {
         mask-size: 19px;
         mask-position: center;
         background-color: #000;
+        transition: .5s;
         @include mq(sp) {
             width: calc(100vw * 0.104);
             height: calc(100vw * 0.104);

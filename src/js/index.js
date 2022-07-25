@@ -51,9 +51,9 @@ require('jquery-inview');
         pauseOnHover: false,
         dots: false,
     });
-    $('.slider').on('beforeChange', function() {
-        $('.fadein-mv').fadeOut();
-    });
+    // $('.slider').on('beforeChange', function() {
+    //     $('.fadein-mv').fadeOut();
+    // });
     $('.slider').on('afterChange', function() {
         $('.fadein-mv').fadeIn();
     });

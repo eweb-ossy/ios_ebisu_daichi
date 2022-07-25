@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a href="">プライバシーポリシー</a>をご確認の上、送信してください。
+                    <a href="https://ebisu-gp.jp/privacypolicy.html">プライバシーポリシー</a>をご確認の上、送信してください。
                 </div>
                 <div class="submit-btn">
                     <button type="submit">送 信</button>
