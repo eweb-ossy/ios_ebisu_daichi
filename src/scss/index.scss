@@ -44,11 +44,9 @@ body {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                width: 100%;
+                object-fit: cover;
                 height: calc(100vh - 85px);
-                @media screen and (min-width: 2622px) {
-                    width: 100%;
-                    height: auto;
-                }
             }
         }
     }
