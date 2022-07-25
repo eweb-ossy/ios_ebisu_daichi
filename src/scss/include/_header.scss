@@ -5,10 +5,9 @@ header.header {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    position: absolute;
     z-index: 2;
     @include mq(tb) {
         height: 20vw;
@@ -16,12 +15,20 @@ header.header {
         padding: 0 8vw;
     }
     .header-logo {
-        img {
-            width: 282px;
-            @include mq(tb) {
-                width: calc(100vw * 0.6373);
-                max-width: 282px;
-            }
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        width: 282px;
+        height: 50px;
+        mask-image: url('../images/logo_daichi2.svg');
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        background-color: #fff;
+        @include mq(tb) {
+            width: 63.73vw;
+            height: calc(63.73vw * 0.1757);
+            max-height: 50px;
         }
     }
     .header-nav-btn {
@@ -52,57 +59,44 @@ header.header {
             }
         }
     }
-}
-nav.header-nav {
-    display: none;
-    position: absolute;
-    top: 0;
-    right: -665px;
-    width: 665px;
-    height: 100vh;
-    padding: 95px;
-    background-color: #fff;
-    z-index: 9;
-    font-family: 'Shippori Mincho B1', serif;
-    overflow-y: scroll;
+    &.fixed {
+        position: fixed;
+        z-index: 999;
+        height: 100px;
+        background-color: #fff;
+        opacity: .9;
+        .header-logo {
+            background-color: $color_daichi;
+        }
+        .header-nav-btn {
+            .btn span {
+                background-color: #000;
+            }
+        }
+    }
     &.active {
-        animation-name: headerSlide;
-        animation-duration: .5s;
-        animation-timing-function: linear;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        @keyframes headerSlide {
-            0% {
-                right: -665px;
-            }
-            100% {
-                right: 0;
-            }
-        }
+        opacity: 1;
     }
-    &.close {
-        animation-name: headerSlideClose;
-        animation-duration: .3s;
-        animation-timing-function: linear;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        @keyframes headerSlideClose {
-            0% {
-                right: 0;
-            }
-            100% {
-                right: -665px;
-            }
-        }
-    }
-    @include mq(tb) {
-        right: -94.594vw;
-        width: 94.594vw;
-        padding: 16vw 8vw;
+    nav.header-nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: -665px;
+        width: 665px;
+        height: 100vh;
+        padding: 95px;
+        background-color: #fff;
+        font-family: 'Shippori Mincho B1', serif;
+        overflow-y: scroll;
         &.active {
+            animation-name: headerSlide;
+            animation-duration: .5s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-fill-mode: forwards;
             @keyframes headerSlide {
                 0% {
-                    right: -694.594vw;
+                    right: -665px;
                 }
                 100% {
                     right: 0;
@@ -110,165 +104,195 @@ nav.header-nav {
             }
         }
         &.close {
+            animation-name: headerSlideClose;
+            animation-duration: .3s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-fill-mode: forwards;
             @keyframes headerSlideClose {
                 0% {
                     right: 0;
                 }
                 100% {
-                    right: -94.594vw;
+                    right: -665px;
                 }
             }
         }
-    }
-    .close-btn {
-        width: 27px;
-        height: 27px;
-        position: absolute;
-        top: 35px;
-        right: 35px;
-        mask-image: url('../images/icon_close.svg');
-        mask-repeat: no-repeat;
-        mask-size: contain;
-        background-color: #000;
-        cursor: pointer;
         @include mq(tb) {
-            width: 7.2vw;
-            height: 7.2vw;
-            max-width: 27px;
-            max-height: 27px;
-            top: 8vw;
-            right: 8vw;
-        }
-    }
-    .main-menu {
-        margin-bottom: 50px;
-        @include mq(tb) {
-            margin-bottom: 8vw;
-        }
-        li {
-            width: 100%;
-            margin-bottom: 25px;
-            @include mq(tb) {
-                margin-bottom: 1em;
+            right: -94.594vw;
+            width: 94.594vw;
+            padding: 16vw 8vw;
+            &.active {
+                @keyframes headerSlide {
+                    0% {
+                        right: -694.594vw;
+                    }
+                    100% {
+                        right: 0;
+                    }
+                }
             }
-            a {
-                width: 100%;
-                display: block;
-                font-size: 26px;
-                font-weight: 600;
-                transition: .5s;
-                &:hover {
-                    color: $color_daichi;
-                }
-                @include mq(tb) {
-                    font-size: 3.84vw;
-                }
-                span {
-                    display: block;
-                    font-size: 11px;
-                    color: #9d9d9d;
-                    padding-top: .8em;
-                    @include mq(tb) {
-                        font-size: 1.7vw;
+            &.close {
+                @keyframes headerSlideClose {
+                    0% {
+                        right: 0;
+                    }
+                    100% {
+                        right: -94.594vw;
                     }
                 }
             }
         }
-    }
-    .sub-menu {
-        width: 100%;
-        position: relative;
-        li {
-            margin-bottom: 25px;
+        .close-btn {
+            width: 27px;
+            height: 27px;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            mask-image: url('../images/icon_close.svg');
+            mask-repeat: no-repeat;
+            mask-size: contain;
+            background-color: #000;
+            cursor: pointer;
             @include mq(tb) {
-                margin-bottom: 0.5em;
-                &:nth-of-type(4) {
-                    position: absolute;
-                    top: 0;
-                    left: 50%;
-                }
-                &:nth-of-type(5) {
-                    position: absolute;
-                    top: calc(2.36vw * 3);
-                    left: 50%;
-                }
+                width: 7.2vw;
+                height: 7.2vw;
+                max-width: 27px;
+                max-height: 27px;
+                top: 8vw;
+                right: 8vw;
             }
-            a {
-                font-size: 16px;
-                font-weight: 600;
-                transition: .5s;
-                &:hover {
-                    color: $color_daichi;
-                }
+        }
+        .main-menu {
+            margin-bottom: 50px;
+            @include mq(tb) {
+                margin-bottom: 8vw;
+            }
+            li {
+                width: 100%;
+                margin-bottom: 25px;
                 @include mq(tb) {
-                    font-size: 2.36vw;
+                    margin-bottom: 1em;
+                }
+                a {
+                    width: 100%;
+                    display: block;
+                    font-size: 26px;
+                    font-weight: 600;
+                    transition: .5s;
+                    &:hover {
+                        color: $color_daichi;
+                    }
+                    @include mq(tb) {
+                        font-size: 3.84vw;
+                    }
+                    span {
+                        display: block;
+                        font-size: 11px;
+                        color: #9d9d9d;
+                        padding-top: .8em;
+                        @include mq(tb) {
+                            font-size: 1.7vw;
+                        }
+                    }
                 }
             }
         }
-        .onlineshop {
-            @include mq(tb) {
-                width: 57.333vw;
-                margin: 8vw auto 0;
+        .sub-menu {
+            width: 100%;
+            position: relative;
+            li {
+                margin-bottom: 25px;
+                @include mq(tb) {
+                    margin-bottom: 0.5em;
+                    &:nth-of-type(4) {
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                    }
+                    &:nth-of-type(5) {
+                        position: absolute;
+                        top: calc(2.36vw * 3);
+                        left: 50%;
+                    }
+                }
+                a {
+                    font-size: 16px;
+                    font-weight: 600;
+                    transition: .5s;
+                    &:hover {
+                        color: $color_daichi;
+                    }
+                    @include mq(tb) {
+                        font-size: 2.36vw;
+                    }
+                }
             }
-            a {
-                position: absolute;
-                bottom: -1em;
-                right: 0;
-                width: 215px;
-                height: 175px;
-                background-image: url('../images/logo_shop_sekimura-farm.svg');
-                background-position: top;
-                background-repeat: no-repeat;
-                background-size: 189px;
-                margin: 0;
-                padding-top: 140px;
-                display: block;
-                transition: .5s;
-                &:hover {
+            .onlineshop {
+                @include mq(tb) {
+                    width: 57.333vw;
+                    margin: 8vw auto 0;
+                }
+                a {
+                    position: absolute;
+                    bottom: -1em;
+                    right: 0;
+                    width: 215px;
+                    height: 175px;
+                    background-image: url('../images/logo_shop_sekimura-farm.svg');
+                    background-position: top;
+                    background-repeat: no-repeat;
+                    background-size: 189px;
+                    margin: 0;
+                    padding-top: 140px;
+                    display: block;
+                    transition: .5s;
+                    &:hover {
+                        &::before {
+                            background-color: #000;
+                        }
+                        &::after {
+                            background-color: #fff;
+                        }
+                    }
+                    @include mq(tb) {
+                        position: initial;
+                        width: auto;
+                        height: calc(41.6vw * 0.8139);
+                        margin: 0 auto;
+                        padding-top: calc(41.6vw * 0.8139 - 2.36vw);
+                        position: relative;
+                    }
                     &::before {
-                        background-color: #000;
+                        content: '';
+                        position: absolute;
+                        width: 45px;
+                        height: 45px;
+                        border: 1px solid #000;
+                        border-radius: 50%;
+                        right: 0;
+                        bottom: 0;
+                        transition: .5s;
+                        @include mq(tb) {
+                            bottom: -4.72vw;
+                        }
                     }
                     &::after {
-                        background-color: #fff;
-                    }
-                }
-                @include mq(tb) {
-                    position: initial;
-                    width: auto;
-                    height: calc(41.6vw * 0.8139);
-                    margin: 0 auto;
-                    padding-top: calc(41.6vw * 0.8139 - 2.36vw);
-                    position: relative;
-                }
-                &::before {
-                    content: '';
-                    position: absolute;
-                    width: 45px;
-                    height: 45px;
-                    border: 1px solid #000;
-                    border-radius: 50%;
-                    right: 0;
-                    bottom: 0;
-                    transition: .5s;
-                    @include mq(tb) {
-                        bottom: -4.72vw;
-                    }
-                }
-                &::after {
-                    content: '';
-                    position: absolute;
-                    width: 45px;
-                    height: 45px;
-                    right: 0;
-                    bottom: 0;
-                    mask-image: url('../images/icon_shopcart.svg');
-                    mask-repeat: no-repeat;
-                    mask-position: center;
-                    mask-size: 19px;
-                    background-color: #000;
-                    transition: .5s;
-                    @include mq(tb) {
-                        bottom: -4.72vw;
+                        content: '';
+                        position: absolute;
+                        width: 45px;
+                        height: 45px;
+                        right: 0;
+                        bottom: 0;
+                        mask-image: url('../images/icon_shopcart.svg');
+                        mask-repeat: no-repeat;
+                        mask-position: center;
+                        mask-size: 19px;
+                        background-color: #000;
+                        transition: .5s;
+                        @include mq(tb) {
+                            bottom: -4.72vw;
+                        }
                     }
                 }
             }
@@ -280,9 +304,9 @@ nav.header-nav {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #666;
     mix-blend-mode: multiply;
-    z-index: 8;
+    z-index: 1;
 }

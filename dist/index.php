@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/index.css?<?= time() ?>">
 </head>
 <body>
+    <?php require('include/header.php'); ?>
     <div class="mv">
-        <?php require('include/header.php'); ?>
         <div class="slider">
             <div class="slide">
                 <img src="images/top_mv_photo01.jpg" loading="lazy" alt="">

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/for_restaurants.css?<?= time() ?>">
 </head>
 <body>
+    <?php require('include/header.php'); ?>
     <div class="mv">
-        <?php require('include/header.php'); ?>
         <div class="image">
             <div class="text">
                 <h2>飲食店の皆様へ</h2>
