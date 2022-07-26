@@ -1,0 +1,25 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/footer_nav";
+@import "include/_contant_part";
+@import "include/footer";
+@import "include/onlineshop_link";
+@import "include/mv_sub";
+
+section {
+    height: 100vh;
+    background-image: url('../images/bg01.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: #ccc;
+        font-size: 120px;
+        text-align: center;
+        span {
+            font-size: 20px;
+            display: block;
+        }
+    }
+}

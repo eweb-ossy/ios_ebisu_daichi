@@ -21,16 +21,6 @@ import $ from 'jquery';
         document.removeEventListener('mousewheel', disableScroll, { passive: false });
     });
     
-    // scroll 
-    let mvHeight = $('.mv').outerHeight();
-    let position;
-    $(window).on('scroll', function() {
-        position = $(this).scrollTop();
-        if (position > mvHeight) {
-            $('.header').addClass('fixed');
-        } else {
-            $('.header').removeClass('fixed');
-        }
-    });
+    $('.header').addClass('fixed');
 
 })();

@@ -20,7 +20,6 @@
                 <li><a href="corporate_information.html">企業情報</a></li>
                 <li><a href="faq.html">よくあるご質問</a></li>
                 <li><a href="contact.html">お問い合わせ</a></li>
-                <li><a href="">サイトマップ</a></li>
             </ul>
         </div>
     </div>
